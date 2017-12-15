@@ -1,0 +1,13 @@
+<div class="col-1">
+    <div class="side-board">
+        <h1>Description</h1>
+        <p class="lead">{{ post.desc }}</p>
+        <hr>
+        <h1>Tags</h1>
+        <ul>
+            {% for tags in page.tags %}
+            <li>{{ tags }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

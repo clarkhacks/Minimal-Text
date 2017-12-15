@@ -1,0 +1,86 @@
+body {
+  background-color: #eee;
+  color: #000;
+  font-size: 1rem;
+}
+
+hr {
+  border: 3px dashed #000;
+  border-style: none none dashed;
+}
+
+.about {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Cutive Mono';
+}
+
+.container .buttons {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.container .buttons .button {
+  display: inline-block;
+}
+
+.container a {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+.container article {
+  border: 3px dashed #000;
+  border-style: none none dashed;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2 {
+  width: 96%;
+}
+
+@media only screen and (min-width: 33.75em) {
+  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  /* 720px */
+  .col-1 {
+    width: 29.33%;
+  }
+  .col-2 {
+    width: 62.66%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}

@@ -1,0 +1,18 @@
+---
+title: Minimal Text
+baseurl: "/"
+desc: A minimal blog for off-topic blog entries.
+about: I am a web developer, software engineer, and project manager currently living in Collinsville, Illinois. I'm a little weird but pretty friendly.
+image: https://i.imgur.com/mxUVc2x.jpg
+excerpt_separator: "<!-- more -->"
+markdown: kramdown
+gems:
+- jekyll-paginate
+exclude:
+  - .jekyll-metadata
+  - README.md
+  - CNAME
+paginate: 5
+paginate_path: "/:num/"
+highlighter: rouge
+permalink: "/:short_year:i_day:i_month"

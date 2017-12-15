@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<main class="container">
+  <div class="row">
+    <div class="col-2">
+      <h1>{{ site.title }}</h1>
+      <p class="lead">
+        <br/>A place for off-topic blog entries.
+      </p>
+      <article>
+        <h1>Posts</h1>
+      </article>
+      {% for post in paginator.posts %}
+      <article>
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url }}">[ Read ]</a>
+      </article>
+      {% endfor %}
+      {% include buttons.html %}
+    </div>
+    {% include sidebar.html %}
+  </div>
+</main>

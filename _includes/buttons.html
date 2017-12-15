@@ -1,0 +1,14 @@
+<div class="buttons">
+{% if paginator.previous_page %}
+    <span class="button">
+        <a href="{{ paginator.previous_page_path }}">[ <- Previous ]</a>
+    </span>
+{% else %}
+{% endif %}
+{% if paginator.next_page %}
+    <span class="button">
+        <a href="{{ paginator.next_page_path }}">[ Next -> ]</a>
+    </span>
+{% else %}
+{% endif %}
+</div>
