@@ -3,7 +3,7 @@ title: Minimal Text
 baseurl: "/Minimal-Text"
 desc: A minimal blog for off-topic blog entries.
 about: I am a web developer, software engineer, and project manager currently living in Collinsville, Illinois. I'm a little weird but pretty friendly.
-image: https://i.imgur.com/mxUVc2x.jpg
+image: https://pinto-light.glitch.me/?width=500&height=500&url=https://i.imgur.com/mxUVc2x.jpg&extension=jpg
 excerpt_separator: "<!-- more -->"
 markdown: kramdown
 gems:
