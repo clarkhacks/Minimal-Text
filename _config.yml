@@ -15,4 +15,4 @@ exclude:
 paginate: 5
 paginate_path: "/:num/"
 highlighter: rouge
-permalink: "/:short_year:i_day:i_month"
+permalink: pretty
