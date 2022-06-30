@@ -2,6 +2,8 @@
 
 Minimal Text is a clean and lightweight Jekyll Theme
 
+[![Buy on Gumroad](https://i.imgur.com/pCAI1tf.png)](https://weckmann.gumroad.com/l/uobbk)
+
 ## Documentation
 
 __Baseurl__
